@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+:root{
+  --Purple:#95389e;
+  --White:#FFF;
+  --Dark:#100303;
+  --lightBlue:#43d8c9;
+  --lightPurple:#fee0ff;}
+
+.text-title{
+  font-family: 'Catamaran', sans-serif;
+  color: var(--White);
+}
+.text-purple{
+  color:var(--Purple);
+  font-family: 'open sans', sans-serif;
+  font-weight: 300;
+}
+.alertbar{
+  background-color: var(--Purple);
+  width:100%;
+}
+a{
+  color: var(--White) !important;
+}
+a:hover{
+text-decoration: none !important;
+color: var(--Purple)!important;
+background-color: var(--lightPurple);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: var(--White);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  margin: 0 !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero{
+  background-image: url('./banner3.jpg'), linear-gradient(rgba(53, 19, 80, 0.8),rgba(53, 19, 80, 0.8));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.text-sub{
+  color: var(--White);
+  margin: 20px;
+  margin-bottom: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-inner{
+  height: auto;
+}
+.hero-text{
+ margin-top: 70px;
+  font-size: 4rem;
+}
+.bars{
+  color: var(--Purple);
+  cursor: pointer;
+  transition: .5s all ease-in-out;
+}
+.bars:hover{
+  transform: scale(1.2);
+}
+.expandable{
+position: absolute;
+right:0;
+bottom:-16px;
+padding-right: 140px;
+}
+.expandable>ul>li{
+  visibility: visible;
+  display: inline-block;
+  padding: 0px 15px 5px 15px;
+  cursor: pointer;
+  border-bottom: 3px var(--White) solid;
+  margin-bottom: 0;
+  transition: .25s all linear;
+}
+.expandable>ul>li:hover{
+  background-color: rgba(0, 0, 0, .1);
+  display: inline-block;
+  padding: 8px 15px 5px 15px;
+  cursor: pointer;
+  border-bottom: 3px var(--Purple) solid;
+  margin-bottom: 0;
+}
+h2{
+  color: var(--Purple);
+  margin-bottom: 10px;
 }
