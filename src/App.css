@@ -86,5 +86,20 @@ padding-right: 140px;
 }
 h2{
   color: var(--Purple);
-  margin-bottom: 10px;
+  margin: 10px 0;
+
+}
+@media screen and (max-width: 950px){
+  .expandable>ul>li{
+    visibility: hidden;
+    display: inline-block;
+    padding: 0px 15px 5px 15px;
+    cursor: pointer;
+    border-bottom: 3px var(--White) solid;
+    margin-bottom: 0;
+    transition: .25s all linear;
+  }
+  h2{
+    padding-top: 10px;
+  }
 }
