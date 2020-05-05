@@ -34,6 +34,13 @@ export default class Home extends Component {
                         <div className="circle align-items-center">
                         <i className="fas fa-search fa-4x pin"></i>
                         </div>
+                        <div className="col-7 info mx-auto">
+                            
+                            <h1>Find Services  <i className="fas fa-arrow-circle-right"></i></h1>
+                           <p>No matter what you're dealing with there are people who can help. Search our database for behavioral health and substance use services that work for you.</p>
+                            
+
+                        </div>
                         </div>
                         <div className="row">
                         <div className="circle align-items-center">
