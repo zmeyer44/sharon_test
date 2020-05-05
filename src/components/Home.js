@@ -7,7 +7,7 @@ export default class Home extends Component {
                 <div className="row hero">
                     <div className="container hero-inner">
                         <div className="row ">
-                            <h1 className="text-title mx-auto hero-text col-7 text-center text-capitalize">The floral park bellrose school community is here to help</h1>
+                            <h1 className="text-title mx-auto hero-text col-7 text-center text-capitalize">The floral park bellerose school community is here to help</h1>
                         </div>
                         <div className="row ">
                             <h3 className="mx-auto col-7 text-center text-capitalize text-sub">with problems like stress, depression, or anxiety. For you or someone you care for.</h3>
@@ -58,6 +58,19 @@ export default class Home extends Component {
 
                     </div>
                     
+                </div>
+                <div className="row" id="bar4">
+                    <div className="col-6 ml-5">
+                        <h4>How to call</h4>
+                        <h1>Call FPBSD Today <i className="fas fa-arrow-circle-right"></i></h1>
+                        <p>We can assist you in anyway possible, like</p>
+
+
+                    </div>
+                    <div className="col-6">
+
+                    </div>
+
                 </div>
             </div>
         )
