@@ -16,15 +16,27 @@ export default class Home extends Component {
 
                 </div>
 
-                <div className="row align-items-center mx-auto" id="bar2">
+                <div className="row align-items-center mx-auto p-5" id="bar2">
                     <div className="col-10 col-md-4 mx-auto">
                         <h5>We are dedicated to</h5>
                         <h2>Helping our community</h2>
                         <p>We are dedicated to helping all members or the floral park bellerose school community who are struggling through these troubling times. We encourage all those who are in need of support to utilize all of the available resources to make the most of your child's learning experience.</p>
 
                     </div>
-                    <div className="col-10 col-md-4 mx-auto">
-                    <img className="py-4 mx-auto" src={require('../logo111.jpg')} width="300px"></img>
+                    <div className="col-10 col-md-4 mx-auto align-items-center">
+                        
+                        <div className="circle1 mx-auto my-5">
+                            <div className="circle2 pt-5">
+                                <h2 className="text-center my-0">FPBSD</h2>
+                                <p className="text-center my-0">Cares</p>
+                            </div>
+                            <div className="circle3 pt-5">
+                                <h3 className="text-center my-0">We are here as a resource</h3>
+                          
+                            </div>
+
+                        </div>
+                   
 
                     </div>
                 </div>

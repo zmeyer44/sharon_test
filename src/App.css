@@ -7,6 +7,7 @@
   --lightBluelightdark:rgba(48, 215, 221, 0.8);
   --lightPurple:#fee0ff;
   --lightGrey:rgba(0,0,0,.3);
+  --WhiteBlue:#f1feff;
 
 }
 *{
@@ -70,7 +71,45 @@ nav{
 .bars:hover{
   transform: scale(1.2);
 }
+.circle1{
+  height: 300px;
+  width: 300px;
+  background-image: url('./banner2.jpeg'), linear-gradient(rgba(48, 215, 221, 0.5), rgba(48, 215, 221, 0.5));
+  background-position: center;
+  background-repeat: none;
+  background-blend-mode: overlay;
+  border-radius: 150px;
+}
+.circle2{
+  position: relative;
+  top:-50px;
+  left:-50px;
+  height:150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: var(--Purple);
+  color:var(--White);
 
+}
+.circle2>h2{
+  
+  color:var(--White);
+}
+.circle3{
+  position: relative;
+  bottom:50px;
+  right:-170px;
+  height:175px;
+  width: 175px;
+  border-radius: 50%;
+  background-color: var(--WhiteBlue);
+  color:var(--Purple);
+  padding: 10px;
+
+}
+.circle3>h3{
+  font-size: 1.7rem;
+}
 #topbar{
   position: absolute;
   bottom: 0;
