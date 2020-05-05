@@ -20,7 +20,7 @@ export default class Home extends Component {
                     <div className="col-10 col-md-4 mx-auto">
                         <h5>We are dedicated to</h5>
                         <h2>Helping our community</h2>
-                        <p>We are dedicated to helping all members or the floral park bellrose school comminuity who are struggling through these troubling times. We encourage all those who are in need of support to utilize all of the available resources to make the most of your child's learning experience.</p>
+                        <p>We are dedicated to helping all members or the floral park bellerose school community who are struggling through these troubling times. We encourage all those who are in need of support to utilize all of the available resources to make the most of your child's learning experience.</p>
 
                     </div>
                     <div className="col-10 col-md-4 mx-auto">
@@ -42,7 +42,7 @@ export default class Home extends Component {
 
                         </div>
                         </div>
-                        <div className="row">
+                        <div className="row my-5">
                         <div className="circle align-items-center">
                         <i className="fas fa-address-card fa-4x pin"></i>
                         </div>
@@ -60,14 +60,20 @@ export default class Home extends Component {
                     
                 </div>
                 <div className="row" id="bar4">
-                    <div className="col-6 ml-5">
-                        <h4>How to call</h4>
+                    <div className="col-6 leftone">
+                        <div className="p-5 ml-5">
+                        <h4>How To Call</h4>
                         <h1>Call FPBSD Today <i className="fas fa-arrow-circle-right"></i></h1>
-                        <p>We can assist you in anyway possible, like</p>
-
+                        <p>We can assist you in anyway possible. We are capable of providing lunches, free learning materials, vital school supplies, etc. We are dedicated to making life as easy as can be while going through this pandemic and anyway we could help we will be happy to try!</p>
+                        </div>
 
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 rightone">
+                        <div className="p-5 ml-5">
+                        <h4>What We Do</h4>
+                        <h1>We Can Help <i className="fas fa-arrow-circle-right"></i></h1>
+                        <p>We can assist you in anyway possible. We are capable of providing lunches, free learning materials, vital school supplies, etc. We are dedicated to making life as easy as can be while going through this pandemic and anyway we could help we will be happy to try!</p>
+                        </div>
 
                     </div>
 
