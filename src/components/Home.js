@@ -36,7 +36,7 @@ export default class Home extends Component {
                         </div>
                         <div className="col-7 info mx-auto">
                             
-                            <h1>Find Services  <i className="fas fa-arrow-circle-right"></i></h1>
+                            <h1 className="bar3title">Find Services  <i className="fas fa-arrow-circle-right"></i></h1>
                            <p className="bar3text">No matter what you're dealing with there are people who can help. Search our database for behavioral health and substance use services that work for you.</p>
                             
 
@@ -48,7 +48,7 @@ export default class Home extends Component {
                         </div>
                         <div className="col-7 info mx-auto">
                             
-                            <h1>Important Contacts  <i className="fas fa-arrow-circle-right"></i></h1>
+                            <h1 className="bar3title">Important Contacts  <i className="fas fa-arrow-circle-right"></i></h1>
                            <p className="bar3text">If you ever feel unsure of who to reach out to for support. We invite you to visit our contacts page for a comprehensive list of people and services which may be helpful to you during this time.</p>
                             
 
