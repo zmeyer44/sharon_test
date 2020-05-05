@@ -30,9 +30,14 @@ export default class Home extends Component {
                 </div>
                 <div className="row align-items-center mx-0 col-12" id="bar3">
                     <div className="container">
-                        <div className="row">
+                        <div className="row my-5">
                         <div className="circle align-items-center">
                         <i className="fas fa-search fa-4x pin"></i>
+                        </div>
+                        </div>
+                        <div className="row">
+                        <div className="circle align-items-center">
+                        <i className="fas fa-address-card fa-4x pin"></i>
                         </div>
                         </div>
 
