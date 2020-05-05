@@ -19,17 +19,25 @@ export default class  extends Component {
                         <img className="py-1" src={require('../logo111.jpg')} width="120px"></img>
                         </li>
                     </ul>
-                    <i className="fas fa-bars fa-2x mr-3 bars"></i>
+                    <i className="fas fa-bars fa-2x mr-3 bars" id='moreoptions'>
+                        <ul>
+                            <li><a href=''>Find Services</a></li>
+                            <li><a href="">App Curriculum Library</a></li>
+                            <li><a href="">Coping and Wellness Tips</a></li>
+                            <li className="dropdown"><a href="">Crisis Services</a></li>
+                            <li><a href="">For Providers</a></li>
+                        </ul>
+                    </i>
                 </nav>
                 <div className="row expandable">
                     <ul className="text-purple" id="topbar">
                         <li><a href="">Find Services</a></li>
-                        <li><a href="">App Library</a></li>
+                        <li><a href="">App Curriculum Library</a></li>
                         <li className="dropdown"><a href="">Coping and Wellness Tips</a>
                         <ul>
                             <li><a href="">Tips for staying mentaly healthy</a></li>
                             <li><a href="">Know when your stressed</a></li>
-                            <li><a href="">Take a deep breath</a></li>
+                            <li><a href="">Take a deep breathe</a></li>
                             <li><a href="">Full body relaxation</a></li>
                             <li><a href="">Bring mindfulness to life</a></li>
                         </ul>

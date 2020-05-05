@@ -41,6 +41,7 @@ background-color: var(--lightPurple);
 nav{
   margin: 0 !important;
 }
+
 .hero{
   background-image: url('./banner3.jpg'), linear-gradient(rgba(53, 19, 80, 0.8),rgba(53, 19, 80, 0.8));
   background-repeat: no-repeat;
@@ -68,8 +69,35 @@ nav{
   cursor: pointer;
   transition: .5s all ease-in-out;
 }
-.bars:hover{
-  transform: scale(1.2);
+.bars>ul{
+  position: absolute;
+  width: auto;
+  top: 75px;
+  right: 0;
+  height: auto;
+  background:var(--White);
+  display: none;
+  line-height: 2rem;
+  padding-top:15px;
+  padding-left:0;
+  z-index: 100;
+  border-radius: 0 0 15px 15px;
+
+}
+.bars:hover>ul{
+  display: block;
+}
+
+.bars>ul>li>a{
+  font-size: 1.25rem;
+  display: block;
+  text-decoration: none;
+  color: var(--Purple);
+  padding: 5px 10px;
+  font-family: 'open sans';
+}
+.bars>ul>li>a:hover{
+  background-color: var(--lightGrey);
 }
 .circle1{
   height: 300px;
@@ -236,7 +264,7 @@ h5{
 .rightone>div>h4{
   color: var(--lightBlue);
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1220px){
   .expandable>ul>li{
     visibility: hidden;
     display: inline-block;

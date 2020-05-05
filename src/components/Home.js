@@ -20,7 +20,7 @@ export default class Home extends Component {
                     <div className="col-10 col-md-4 mx-auto">
                         <h5>We are dedicated to</h5>
                         <h2>Helping our community</h2>
-                        <p>We are dedicated to helping all members or the floral park bellerose school community who are struggling through these troubling times. We encourage all those who are in need of support to utilize all of the available resources to make the most of your child's learning experience.</p>
+                        <p>We are dedicated to helping all members or the Floral Park Bellerose School Community who are struggling through these troubling times. We encourage all those who are in need of support to utilize all of the available resources to make the most of your child's learning experience.</p>
 
                     </div>
                     <div className="col-10 col-md-4 mx-auto align-items-center">
@@ -49,7 +49,7 @@ export default class Home extends Component {
                         <div className="col-7 info mx-auto">
                             
                             <h1 className="bar3title">Find Services  <i className="fas fa-arrow-circle-right"></i></h1>
-                           <p className="bar3text">No matter what you're dealing with there are people who can help. Search our database for behavioral health and substance use services that work for you.</p>
+                           <p className="bar3text">No matter what you're dealing with there are people who can help. Search our database for curriculum, behavioral, and emotional services that work for you.</p>
                             
 
                         </div>
@@ -61,7 +61,7 @@ export default class Home extends Component {
                         <div className="col-7 info mx-auto">
                             
                             <h1 className="bar3title">Important Contacts  <i className="fas fa-arrow-circle-right"></i></h1>
-                           <p className="bar3text">If you ever feel unsure of who to reach out to for support. We invite you to visit our contacts page for a comprehensive list of people and services which may be helpful to you during this time.</p>
+                           <p className="bar3text">If you feel unsure of who to reach out to for support, we invite you to visit our contacts page for a comprehensive list of staff members which may be helpful to you during this time.</p>
                             
 
                         </div>
