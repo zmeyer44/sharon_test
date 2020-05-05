@@ -3,6 +3,7 @@
   --White:#FFF;
   --Dark:#100303;
   --lightBlue:#43d8c9;
+  --lightBluelight:rgba(48, 215, 221, 0.5);
   --lightPurple:#fee0ff;
   --lightGrey:rgba(0,0,0,.3);
 
@@ -159,8 +160,7 @@ h5{
   
 }
 #bar3{
-  background-color: var(--lightBlue);
-  opacity: .5;
+  background-color: var(--lightBluelight);
   padding: 20px;
 }
 .circle{
@@ -173,6 +173,9 @@ h5{
   position: relative;
   top:40px;
   left:40px;
+}
+.bar3text{
+  color: black !important;
 }
 @media screen and (max-width: 950px){
   .expandable>ul>li{
