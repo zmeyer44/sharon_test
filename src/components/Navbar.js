@@ -35,7 +35,7 @@ export default class  extends Component {
                         <li><a href="">App Curriculum Library</a></li>
                         <li className="dropdown"><a href="">Coping and Wellness Tips</a>
                         <ul>
-                            <li><a href="">Tips for staying mentaly healthy</a></li>
+                            <li><a href="">Tips for staying mentally healthy</a></li>
                             <li><a href="">Know when your stressed</a></li>
                             <li><a href="">Take a deep breathe</a></li>
                             <li><a href="">Full body relaxation</a></li>

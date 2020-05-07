@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Home extends Component {
     render() {
@@ -10,7 +11,7 @@ export default class Home extends Component {
                             <h1 className="text-title mx-auto hero-text col-7 text-center text-capitalize">The floral park bellerose school community is here to help</h1>
                         </div>
                         <div className="row ">
-                            <h3 className="mx-auto col-7 text-center text-capitalize text-sub">with problems like stress, depression, or anxiety. For you or someone you care for.</h3>
+                            <h3 className="mx-auto col-7 text-center text-capitalize text-sub">with problems like stress, depression, or anxiety - For you or someone you care for.</h3>
                         </div>
                     </div>
 
@@ -20,19 +21,25 @@ export default class Home extends Component {
                     <div className="col-10 col-md-4 mx-auto">
                         <h5>We are dedicated to</h5>
                         <h2>Helping our community</h2>
-                        <p>We are dedicated to helping all members or the Floral Park Bellerose School Community who are struggling through these troubling times. We encourage all those who are in need of support to utilize all of the available resources to make the most of your child's learning experience.</p>
+                        <p>We are dedicated to helping members or the Floral Park Bellerose School Community who are struggling through these troubling times. We encourage those who are in need of support to utilize the available resources.</p>
 
                     </div>
                     <div className="col-10 col-md-4 mx-auto align-items-center">
                         
                         <div className="circle1 mx-auto my-5">
-                            <div className="circle2 pt-5">
+                            <div className="circle2 pt-5  hovzoom">
                                 <h2 className="text-center my-0">FPBSD</h2>
                                 <p className="text-center my-0">Cares</p>
                             </div>
-                            <div className="circle3 pt-5">
+                            <div className="circle3 pt-5 hovzoom">
                                 <h3 className="text-center my-0">We are here as a resource</h3>
                           
+                            </div>
+                            <div className="circle4 hovzoom">
+
+                            </div>
+                            <div className="circle5 hovzoom">
+                                
                             </div>
 
                         </div>
@@ -75,8 +82,10 @@ export default class Home extends Component {
                     <div className="col-6 leftone">
                         <div className="p-5 ml-5">
                         <h4>How To Call</h4>
+                        <Link to="/">
                         <h1>Call FPBSD Today <i className="fas fa-arrow-circle-right"></i></h1>
-                        <p>We can assist you in anyway possible. We are capable of providing lunches, free learning materials, vital school supplies, etc. We are dedicated to making life as easy as can be while going through this pandemic and anyway we could help we will be happy to try!</p>
+                        </Link>
+                        <p>We are here to assist you! We are able to provide lunches, learning materials, vital school supplies, and more. Our administrators are didicated to support you. Please don't hesitate to call us; our cell phone numbers are listed for your convenience.</p>
                         </div>
 
                     </div>

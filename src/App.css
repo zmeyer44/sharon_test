@@ -14,6 +14,11 @@
   list-style: none;
   box-sizing: border-box;
 }
+a{
+  color:inherit !important;
+  text-decoration: none !important;
+}
+
 .text-title{
   font-family: 'Catamaran', sans-serif;
   color: var(--White);
@@ -28,6 +33,7 @@
   background-color: var(--Purple);
   width:100%;
   color: var(--White) !important;
+  opacity: .8;
 }
 .alertbar:hover{
 text-decoration: none !important;
@@ -138,6 +144,40 @@ nav{
 .circle3>h3{
   font-size: 1.7rem;
 }
+.circle4{
+  position: absolute;
+  bottom: 220px;
+  left:270px;
+  height: 200px;
+  width: 200px;
+  background-image: url('./zoom.jpg'), linear-gradient(rgba(165, 74, 192, 0.5), rgba(124, 18, 119, 0.5));
+  background-position: center;
+  background-repeat: none;
+  background-blend-mode: overlay;
+  background-size: 500px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.circle5{
+  position: absolute;
+  top: 220px;
+  right:270px;
+  height: 170px;
+  width: 170px;
+  background-image: url('./ipad.jpg'), linear-gradient(rgba(165, 74, 192, 0.5), rgba(124, 18, 119, 0.5));
+  background-position: center;
+  background-repeat: none;
+  background-blend-mode: overlay;
+  background-size: 370px;
+  border-radius: 50%;
+  
+}
+.hovzoom{
+  transition: .5s all ease-in-out;
+}
+.hovzoom:hover{
+  transform: scale(1.2)
+}
 #topbar{
   position: absolute;
   bottom: 0;
@@ -206,7 +246,7 @@ nav{
   
   display: block;
   text-decoration: none;
-  color: var(--White);
+  color: var(--White) !important;
   padding: 5px 10px;
 }
 .dropdown>ul>li>a:hover{
