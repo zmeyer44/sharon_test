@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class  extends Component {
     render() {
         return (
-            <div className="container mx-0 col-12">
+            <div className="container mx-0 p-0 col-12">
                 <div className="row">
                     <a className="alertbar" href="https://nycwell.cityofnewyork.us/en/covid-19-digital-mental-health-resources/">
                         <div className="alert-bar-inner container text-center p-2">
@@ -13,7 +13,7 @@ export default class  extends Component {
                     </a>
                 </div>
                 
-                <nav className="navbar mx-0 py-0 px-0 px-sm-5 mx-sm-0">
+                <nav className="navbar m-0 px-sm-5 mx-sm-0">
                     <ul className="navbar-nav ">
                         <li className="nav-item ml-2 my-0">
                         <img className="py-1" src={require('../logo111.jpg')} width="120px"></img>
@@ -22,7 +22,7 @@ export default class  extends Component {
                     <i className="fas fa-bars fa-2x mr-3 bars" id='moreoptions'>
                         <ul>
                             <li><a href=''>Find Services</a></li>
-                            <li><a href="">App Curriculum Library</a></li>
+                            
                             <li><a href="">Coping and Wellness Tips</a></li>
                             <li className="dropdown"><a href="">Crisis Services</a></li>
                             <li><a href="">For Providers</a></li>
@@ -32,7 +32,7 @@ export default class  extends Component {
                 <div className="row expandable">
                     <ul className="text-purple" id="topbar">
                         <li><a href="">Find Services</a></li>
-                        <li><a href="">App Curriculum Library</a></li>
+                        
                         <li className="dropdown"><a href="">Coping and Wellness Tips</a>
                         <ul>
                             <li><a href="">Tips for staying mentally healthy</a></li>

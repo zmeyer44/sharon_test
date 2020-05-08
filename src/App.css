@@ -10,9 +10,20 @@
   --WhiteBlue:#f1feff;
 
 }
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 *{
   list-style: none;
   box-sizing: border-box;
+  
+}
+#full{
+  padding: 0 !important;
 }
 a{
   color:inherit !important;
@@ -43,13 +54,14 @@ background-color: var(--lightPurple);
 
 .navbar{
   background-color: var(--White);
+  width: 100%;
 }
 nav{
   margin: 0 !important;
 }
 
 .hero{
-  background-image: url('./banner3.jpg'), linear-gradient(rgba(53, 19, 80, 0.8),rgba(53, 19, 80, 0.8));
+  background-image: url('./logo\ copy.jpg'), linear-gradient(rgba(53, 19, 80, 0.8),rgba(53, 19, 80, 0.8));
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -108,10 +120,11 @@ nav{
 .circle1{
   height: 300px;
   width: 300px;
-  background-image: url('./banner2.jpeg'), linear-gradient(rgba(48, 215, 221, 0.5), rgba(48, 215, 221, 0.5));
+  background-image: url('./girl.png'), linear-gradient(rgba(48, 215, 221, 0.5), rgba(48, 215, 221, 0.5));
   background-position: center;
   background-repeat: none;
   background-blend-mode: overlay;
+  background-size: 400px;
   border-radius: 150px;
 }
 .circle2{
