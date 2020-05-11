@@ -60,7 +60,7 @@ export default class Home extends Component {
                         <div className="p-5 ml-5">
                         <h4>How To Connect</h4>
                         <Link to="/emails">
-                        <h1>Connect with FPBSD Today <i className="fas fa-arrow-circle-right"></i></h1>
+                        <h1>Connect with FPBSD Today <i className="fas fa-arrow-circle-right toemail"></i></h1>
                         </Link>
                         <p>We are here to assist you! We are able to provide breakfast/lunch, learning materials, vital school supplies, and more. Please don't hesitate to contact us; our email addresses are listed for your convenience.</p>
                         </div>
