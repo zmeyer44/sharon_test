@@ -284,6 +284,9 @@ h5{
   background-color: var(--lightBluelight);
   padding: 20px;
 }
+#bar5{
+  background-color: var(--Purple);
+}
 .circle{
   height:150px;
   width:150px;
@@ -316,6 +319,35 @@ h5{
 }
 .rightone>div>h4{
   color: var(--lightBlue);
+}
+.emails{
+  display: inline-block;
+}
+.individual-line>ul>li{
+  display: inline-block;
+  margin:10px;
+  
+}
+.individual-line>ul{
+  padding: 0;
+}
+.individual-line:nth-child(even){
+  background-color:var(--lightPurple);
+}
+.individual-line{
+  transition: all .25s ease-in-out;
+}
+.individual-line:hover{
+  transform: scale(1.1);
+}
+.emhead{
+  background-color: var(--Purple);
+  color: var(--White);
+  transition: all .25s ease-in-out;
+  box-shadow: 5px 5px var(--lightPurple);
+}
+.emhead:hover{
+  box-shadow: 15px 10px var(--lightPurple);
 }
 @media screen and (max-width: 1220px){
   .expandable>ul>li{

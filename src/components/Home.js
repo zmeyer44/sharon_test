@@ -59,16 +59,26 @@ export default class Home extends Component {
                     <div className="col-12 leftone">
                         <div className="p-5 ml-5">
                         <h4>How To Connect</h4>
-                        <Link to="/">
+                        <Link to="/emails">
                         <h1>Connect with FPBSD Today <i className="fas fa-arrow-circle-right"></i></h1>
                         </Link>
-                        <p>We are here to assist you! We are able to provide breakfast/lunch, learning materials, vital school supplies, and more. Our administrators are didicated to support you. Please don't hesitate to contact us; our email addresses are listed for your convenience.</p>
+                        <p>We are here to assist you! We are able to provide breakfast/lunch, learning materials, vital school supplies, and more. Please don't hesitate to contact us; our email addresses are listed for your convenience.</p>
                         </div>
 
                     </div>
                     
 
                 </div>
+                <div className="row align-items-center mx-0 col-12 " id="bar5">
+                    
+                <iframe className='mx-auto p-5' width="560" height="315" src="https://embed.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+                
+                    
+                </div>
+
+
             </div>
         )
     }
