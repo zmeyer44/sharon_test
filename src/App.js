@@ -14,12 +14,13 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <ScrollToTop></ScrollToTop>
         <Switch>
+        <Route exact path=" " component={Home} />
           <Route exact path="/" component={Home} />
           <Route path="/emails" component={EmailList} />
           <Route component={Default} />
         </Switch>
+        <ScrollToTop />
         <Modal />
       </React.Fragment>
     );

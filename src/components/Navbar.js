@@ -46,6 +46,7 @@ export default class  extends Component {
                         </li>
                         <li className="dropdown"><a href="">Coping and Wellness Tips</a>
                         <ul>
+                        <li><a href="https://www.tenpercent.com/meditationweeklyblog/meditation-and-coronavirus"target="_blank">Meditation and Coronavirus</a></li>
                             <li><a href="https://drive.google.com/file/d/1JUpQcKihKJ-eyDLReEg8i9v05zEzgrdy/view"target="_blank">Relaxation Strategies</a></li>
                             <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fprepare%2Fmanaging-stress-anxiety.html"target="_blank">Coping with Stress</a></li>
                             <li><a href="https://www.stopbreathethink.com/kids/"target="_blank">Stop, Breathe and Think</a></li>
@@ -56,6 +57,8 @@ export default class  extends Component {
                         </li>
                         <li className="dropdown"><a href="">Resources For Parents</a>
                         <ul>
+                        <li><a href="https://centerhealthyminds.org/news/covid-19-and-our-common-humanity"target="_blank">Covid-19 and our Common Humanity</a></li>
+                        
                             <li><a href="https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7"target="_blank">Adjusting to online learning</a></li>
                             <li><a href="https://www.pbs.org/parents/thrive/how-to-talk-to-your-kids-about-coronavirus"target="_blank">PBS: How to talk to your kids about the Coronavirus</a></li>
                             <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/talking-with-children.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fschools-childcare%2Ftalking-with-children.html"target="_blank">Talking with children about Coronavirus</a></li>
