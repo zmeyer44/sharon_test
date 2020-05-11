@@ -7,12 +7,14 @@ import Home from "./components/Home";
 import Modal from "./components/Modal";
 import Default from "./components/Default";
 import EmailList from "./components/EmailList";
+import ScrollToTop from "./ScrollToTop";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Navbar />
+        <ScrollToTop></ScrollToTop>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/emails" component={EmailList} />
