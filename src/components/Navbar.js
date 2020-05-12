@@ -23,7 +23,7 @@ export default class  extends Component {
                     </ul>
                     <i className="fas fa-bars fa-2x mr-3 bars" id='moreoptions'>
                         <ul>
-                            <li><a href=''>Find Services</a></li>
+                            <li><a href=''>Strategies for Remote Learning</a></li>
                             
                             <li><a href="">Coping and Wellness Tips</a></li>
                             <li className="dropdown"><a href="">Crisis Services</a></li>
@@ -33,7 +33,18 @@ export default class  extends Component {
                 </nav>
                 <div className="row expandable">
                     <ul className="text-purple" id="topbar">
-                        <li><a href="">Find Services</a></li>
+                        <li className="dropdown"><a href="">Strategies for Remote Learning</a>
+                        <ul>
+                        <li><a href="https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7"target="_blank">Parents' Guide</a></li>
+                        <li><a href="https://www.parents.com/kids/education/back-to-school/how-to-create-homework-hq/?slide=slide_df6430c0-7efb-453f-9d8c-ca81ac1a327b#slide_df6430c0-7efb-453f-9d8c-ca81ac1a327b"target="_blank">Setting up an Organized Workspace</a></li>
+
+                        <li><a href="https://drive.google.com/file/d/1DpHef5aHVDOyYGc_7Y9kcdYOgKKjrOp1/view"target="_blank">Using Praise and Rewards Wisely</a></li>
+
+                        <li><a href="https://signup.e2ma.net/signup/1917784/1800565/"target="_blank">Daily Parenting Tips</a></li>
+                        <li><a href="https://www.alticeusa.com/news/articles/feature/corporate/altice-usa-brings-free-broadband-k-12-and-college-students-during-coronavirus-pandemic"target="_blank">Free Wifi Connection</a></li>
+
+                        </ul>
+                        </li>
                         <li className="dropdown"><a href="">Resources for kids</a>
                         <ul>
                             <li><a href="https://www.brainpop.com/health/diseasesinjuriesandconditions/coronavirus/"target="_blank">Animated Coronavirus video</a></li>
@@ -68,7 +79,8 @@ export default class  extends Component {
                         <li className="dropdown"><a href="">Crisis Services</a>
                         <ul>
                             <li><a href="https://www.samhsa.gov/find-help/disaster-distress-helpline"target="_blank">Disaster Distress Helpline</a></li>
-                            <li><a href="https://suicidepreventionlifeline.org/chat/"target="_blank">Lifeline Chat</a></li>
+                            <li><a href="https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program"target="_blank">Supplemental Nutrition Assistance Program</a></li>
+
                             <li><a href="https://www.islandharvest.org/"target="_blank">Food Banks</a></li>
                             <li><a href="https://211lifeline.org/detail.php?id=7339850"target="_blank">Mobile Crisis Team</a></li>
                         </ul>

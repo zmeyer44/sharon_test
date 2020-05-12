@@ -26,7 +26,7 @@ export default class EmailList extends Component {
             </li>
             <li className="individual-line text-center ">
               <ul>
-                <li>Michael Febiano</li>
+                <li>Michael Fabiano</li>
                 <li>Assistant Superintendent for Business</li>
                 <li>MFabiano@fpbsd.org</li>
               </ul>

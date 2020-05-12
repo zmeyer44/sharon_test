@@ -56,13 +56,23 @@ export default class Home extends Component {
                     
                 </div>
                 <div className="row" id="bar4">
-                    <div className="col-12 leftone">
+                    <div className="col-6 leftone">
                         <div className="p-5 ml-5">
                         <h4>How To Connect</h4>
                         <Link to="/emails">
                         <h1>Connect with FPBSD Today <i className="fas fa-arrow-circle-right toemail"></i></h1>
                         </Link>
                         <p>We are here to assist you! We are able to provide breakfast/lunch, learning materials, vital school supplies, and more. Please don't hesitate to contact us; our email addresses are listed for your convenience.</p>
+                        </div>
+
+                    </div>
+                    <div className="col-6 rightone">
+                        <div className="p-5 mx-auto">
+                        <h4>More Resources</h4>
+                        <a href="https://www.fpbsd.org" target="blank">
+                        <h1>Virtual Library <i className="fas fa-arrow-circle-right toemail"></i></h1>
+                        </a>
+                        <p>Our Virtual Library is a fantastic resource for parents to learn how to utilize programs like Seesaw and Google Classroom.</p>
                         </div>
 
                     </div>
