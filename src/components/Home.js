@@ -9,6 +9,7 @@ export default class Home extends Component {
                     <div className="container hero-inner">
                         <div className="row ">
                             <h1 className="text-title mx-auto hero-text col-7 text-center text-capitalize">The floral park bellerose school community is here to help</h1>
+                            <h3 className="mx-auto col-7 text-center text-sub">"We are all in this together"</h3>
                         </div>
                         <div className="row ">
                             <h3 className="mx-auto col-7 text-center text-capitalize text-sub"></h3>
@@ -81,8 +82,8 @@ export default class Home extends Component {
                 </div>
                 <div className="row align-items-center mx-0 col-12 " id="bar5">
                     
-                <iframe className='mx-auto p-5' width="560" height="315" src="https://embed.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
+                <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/Jnhsk70XuCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/diC3AFp80N4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 
                     

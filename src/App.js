@@ -10,6 +10,7 @@ import EmailList from "./components/EmailList";
 import ScrollToTop from "./ScrollToTop";
 
 class App extends Component {
+  
   render() {
     return (
       <React.Fragment>

@@ -33,7 +33,7 @@ export default class  extends Component {
                 </nav>
                 <div className="row expandable">
                     <ul className="text-purple" id="topbar">
-                        <li className="dropdown"><a href="">Strategies for Remote Learning</a>
+                        <li className="dropdown"><a href="">Strategies For Remote Learning</a>
                         <ul>
                         <li><a href="https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7"target="_blank">Parents' Guide</a></li>
                         <li><a href="https://www.parents.com/kids/education/back-to-school/how-to-create-homework-hq/?slide=slide_df6430c0-7efb-453f-9d8c-ca81ac1a327b#slide_df6430c0-7efb-453f-9d8c-ca81ac1a327b"target="_blank">Setting up an Organized Workspace</a></li>
@@ -45,7 +45,7 @@ export default class  extends Component {
 
                         </ul>
                         </li>
-                        <li className="dropdown"><a href="">Resources for kids</a>
+                        <li className="dropdown"><a href="">Resources For kids</a>
                         <ul>
                             <li><a href="https://www.brainpop.com/health/diseasesinjuriesandconditions/coronavirus/"target="_blank">Animated Coronavirus video</a></li>
                             <li><a href="https://www.npr.org/sections/goatsandsoda/2020/02/28/809580453/just-for-kids-a-comic-exploring-the-new-coronavirus"target="_blank">npr Just for Kids</a></li>
@@ -83,6 +83,8 @@ export default class  extends Component {
 
                             <li><a href="https://www.islandharvest.org/"target="_blank">Food Banks</a></li>
                             <li><a href="https://211lifeline.org/detail.php?id=7339850"target="_blank">Mobile Crisis Team</a></li>
+                            <li><a href="https://suicidepreventionlifeline.org/"target="_blank">Lifeline Chat</a></li>
+
                         </ul>
                         </li>
                         
