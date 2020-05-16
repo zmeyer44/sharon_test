@@ -270,8 +270,15 @@ h2{
   
 
 }
+.gofundme{
+  color: blue !important;
+  font-weight: bold;
+}
+.gofundme:hover{
+  text-decoration: underline !important;
+}
 h5{
-  color: var(--lightBlue);
+  color: var(--White);
 }
 #full{
   width: 100%;

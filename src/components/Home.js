@@ -19,10 +19,11 @@ export default class Home extends Component {
                 </div>
 
                 <div className="row align-items-center mx-auto py-5" id="bar2">
-                    <div className="col-10 col-md-4 mx-auto">
-                        <h5>We are dedicated to</h5>
-                        <h2>Helping our community</h2>
-                        <p>We are dedicated to helping members of the Floral Park Bellerose School Community who are struggling through these troubling times. We encourage those who are in need of support to utilize the available resources.</p>
+                    <div className="col-10 col-md-5 mx-auto">
+                        
+                        <h2>Lauren is a true role model!!</h2>
+                        <p>Lauren Avigliano is a sixth grade student in the FPBS who always puts her heart into everything she does.    She is always willing to help a friend in need.  Instead of gifts for her birthday, she asked her family and friends to donate food to help support the food pantry in OLV.  There was a huge response.  
+Now Lauren set up a <a href="https://www.gofundme.com/f/pgcagr-feeding-those-in-need" className="gofundme">Go Fund Me</a> page and raised $4000 so far which is being used for food, diapers and other needs that families have at this unprecedented time.</p>
 
                     </div>
                     <div className="col-10 col-md-4 mx-auto align-items-center">
@@ -48,10 +49,18 @@ export default class Home extends Component {
 
                     </div>
                 </div>
-                <div className="row align-items-center mx-0 col-12 " id="bar3">
-                    
+                <div className="row align-items-center mx-0 " id="bar3">
+                    <div className="col-6">
                     <iframe className="mx-auto my-5" width="560" height="315" src="https://www.youtube.com/embed/bfNOAN9KvU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+                    </div>
+                    <div className="col-10 col-md-4 mx-auto">
+                        <h5>We are dedicated to</h5>
+                        <h2>Helping our community</h2>
+                        <p>We are dedicated to helping members of the Floral Park Bellerose School Community who are struggling through these troubling times. We encourage those who are in need of support to utilize the available resources.</p>
+
+                    </div>
+                   
 
                 
                     
@@ -83,7 +92,7 @@ export default class Home extends Component {
                 <div className="row align-items-center mx-0 col-12 " id="bar5">
                     
                 <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/Jnhsk70XuCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/diC3AFp80N4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/n-Bj2LS9jSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 
                     
