@@ -18,7 +18,13 @@ export default class Home extends Component {
                     </div>
 
                 </div>
-
+                <div className="row align-items-center mx-0 col-12 " id="bar6">
+                    
+                    <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/n-Bj2LS9jSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                    
+                        
+                    </div>
                 <div className="row align-items-center mx-auto py-5" id="bar2">
                     <div className="col-10 col-md-5 mx-auto">
                         
@@ -94,7 +100,6 @@ Now Lauren set up a <a href="https://www.gofundme.com/f/pgcagr-feeding-those-in-
                 <div className="row align-items-center mx-0 col-12 " id="bar5">
                     
                 <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/Jnhsk70XuCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/n-Bj2LS9jSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 
                     

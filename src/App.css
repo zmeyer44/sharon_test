@@ -372,6 +372,9 @@ h5{
 #seesaw_link:hover{
   text-decoration: underline !important;
 }
+#bar6{
+  background-color: var(--lightPurple);
+}
 @media screen and (max-width: 1220px){
   .expandable>ul>li{
     visibility: hidden;
