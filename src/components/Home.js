@@ -84,7 +84,7 @@ Now Lauren set up a <a href="https://www.gofundme.com/f/pgcagr-feeding-those-in-
                         <a href="https://www.fpbsd.org" target="blank">
                         <h1>FPBSD Site <i className="fas fa-arrow-circle-right toemail"></i></h1>
                         </a>
-                        <p>Our School District website is a fantastic resource for parents to learn how to utilize programs like <a id="seesaw_link" href="https://www.youtube.com/watch?v=WsxDUABH8q4">Seesaw</a> and Google Classroom.</p>
+                        <p>Our School District website is a fantastic resource for parents. Please visit often.</p>
                         </div>
 
                     </div>
