@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import VideoSlider from './VideoSlider';
 
 export default class Home extends Component {
     render() {
@@ -65,6 +66,7 @@ Now Lauren set up a <a href="https://www.gofundme.com/f/pgcagr-feeding-those-in-
                 
                     
                 </div>
+                
                 <div className="row" id="bar4">
                     <div className="col-6 leftone">
                         <div className="p-5 ml-5">
@@ -80,9 +82,9 @@ Now Lauren set up a <a href="https://www.gofundme.com/f/pgcagr-feeding-those-in-
                         <div className="p-5 mx-auto">
                         <h4>More Resources</h4>
                         <a href="https://www.fpbsd.org" target="blank">
-                        <h1>Virtual Library <i className="fas fa-arrow-circle-right toemail"></i></h1>
+                        <h1>FPBSD Site <i className="fas fa-arrow-circle-right toemail"></i></h1>
                         </a>
-                        <p>Our Virtual Library is a fantastic resource for parents to learn how to utilize programs like Seesaw and Google Classroom.</p>
+                        <p>Our School District website is a fantastic resource for parents to learn how to utilize programs like <a id="seesaw_link" href="https://www.youtube.com/watch?v=WsxDUABH8q4">Seesaw</a> and Google Classroom.</p>
                         </div>
 
                     </div>

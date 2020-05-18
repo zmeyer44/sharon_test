@@ -365,6 +365,13 @@ h5{
 .emhead:hover{
   box-shadow: 15px 10px var(--lightPurple);
 }
+#seesaw_link{
+  color: blue !important;
+  font-weight: bold !important;
+}
+#seesaw_link:hover{
+  text-decoration: underline !important;
+}
 @media screen and (max-width: 1220px){
   .expandable>ul>li{
     visibility: hidden;
