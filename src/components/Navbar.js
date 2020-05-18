@@ -42,8 +42,8 @@ export default class  extends Component {
 
                         <li><a href="https://signup.e2ma.net/signup/1917784/1800565/"target="_blank">Daily Parenting Tips</a></li>
                         <li><a href="https://www.alticeusa.com/news/articles/feature/corporate/altice-usa-brings-free-broadband-k-12-and-college-students-during-coronavirus-pandemic"target="_blank">Free Wifi Connection</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=WsxDUABH8q4"target="_blank">Getting Started on Seesaw abd Google</a></li>
-                        <li><a href="https://youtu.be/g5jG9VoROFs"target="_blank">Seesaw Tutorial for Students</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=WsxDUABH8q4"target="_blank">Getting Started on Seesaw and Google</a></li>
+                        <li><a href="https://youtu.be/g5jG9VoROFs"target="_blank">Seesaw Tutorial for Parents</a></li>
 
                         </ul>
                         </li>
@@ -66,7 +66,7 @@ export default class  extends Component {
                             <li><a href="https://drive.google.com/file/d/1ZZVYmvcQW4P1D4Tav0zw3Qjy3LZzTiLN/view"target="_blank">Mindfulness Exercises for Children</a></li>
                             <li><a href="https://drive.google.com/file/d/1WkSJLL8kDF8pyHEos7Ji4JVAAHCQk3on/view"target="_blank">Breathing Exercises for Kids</a></li>
                             <li><a href="https://childmind.org/article/how-to-help-children-calm-down/"target="_blank">Coping with Anger</a></li>
-                            <li><a href="https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend?language=en"target="_blank">Inspirational Video</a></li>
+                            <li><a href="https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend?language=en"target="_blank">Helpful Videos</a></li>
 
                         </ul>
                         </li>
