@@ -23,11 +23,11 @@ export default class  extends Component {
                     </ul>
                     <i className="fas fa-bars fa-2x mr-3 bars" id='moreoptions'>
                         <ul>
-                            <li><a href='https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7'>Strategies for Remote Learning</a></li>
+                            <li><a href='https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7'target="_blank">Strategies for Remote Learning</a></li>
                             
-                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fprepare%2Fmanaging-stress-anxiety.html">Coping and Wellness Tips</a></li>
-                            <li className="dropdown"><a href="https://www.samhsa.gov/find-help/disaster-distress-helpline">Crisis Services</a></li>
-                            <li><a href="https://www.pbs.org/parents/thrive/how-to-talk-to-your-kids-about-coronavirus">For Parents</a></li>
+                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fprepare%2Fmanaging-stress-anxiety.html"target="_blank">Coping and Wellness Tips</a></li>
+                            <li className="dropdown"><a href="https://www.samhsa.gov/find-help/disaster-distress-helpline"target="_blank">Crisis Services</a></li>
+                            <li><a href="https://www.pbs.org/parents/thrive/how-to-talk-to-your-kids-about-coronavirus"target="_blank">For Parents</a></li>
                         </ul>
                     </i>
                 </nav>
