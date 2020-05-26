@@ -44,6 +44,9 @@ export default class  extends Component {
                         <li><a href="https://www.alticeusa.com/news/articles/feature/corporate/altice-usa-brings-free-broadband-k-12-and-college-students-during-coronavirus-pandemic"target="_blank">Free Wifi Connection</a></li>
                         <li><a href="https://www.youtube.com/watch?v=WsxDUABH8q4"target="_blank">Getting Started on Seesaw and Google</a></li>
                         <li><a href="https://youtu.be/g5jG9VoROFs"target="_blank">Seesaw Tutorial for Parents</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=IgS-hoSIjnw"target="_blank">Google Classroom Overview</a></li>
+                        <li><a href="https://www.loom.com/share/29a73cb5e12e4f44885fb314e1f129b6"target="_blank">Google Classroom Tutorials</a></li>
+                        <li><a href="https://drive.google.com/file/d/157WPNRf0FcWnjS2qInwaArxpWAQXu_Zq/view?usp=sharing"target="_blank">How to Open and Submit a Google Slide Assignment</a></li>
 
                         </ul>
                         </li>
