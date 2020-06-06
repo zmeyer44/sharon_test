@@ -22,8 +22,10 @@ const Modal =(props) =>{
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <p>Message from Superintendent.</p>
+      <div class="modal-body text-center">
+          <p>
+        <q cite="Anne Frank">In the long run, the sharpest weapon of all is a kind and gentle spirit</q> -Anne Frank</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mTsvSAItPqA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
           <Link to="/update">

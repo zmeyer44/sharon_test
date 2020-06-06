@@ -5,7 +5,8 @@ export default class Update extends Component {
     return (
       <div className="container col-10">
         <div className="row"></div>
-        <div className="row mt-5">
+        <div className="row mt-5 align-items-center">
+            <div className="col-6">
           <ul className="update-list">
             <li>
               <a
@@ -72,6 +73,10 @@ export default class Update extends Component {
               </a>
             </li>
           </ul>
+          </div>
+          <div className="col-4">
+          <img src="../../img/kindness.png" alt="be kind" width="500px"></img>
+          </div>
         </div>
       </div>
     );
