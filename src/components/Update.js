@@ -5,7 +5,7 @@ export default class Update extends Component {
     return (
       <div className="container col-10">
         <div className="row"></div>
-        <div className="row">
+        <div className="row mt-5">
           <ul className="update-list">
             <li>
               <a
