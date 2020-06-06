@@ -8,6 +8,7 @@ import Modal from "./components/Modal";
 import Default from "./components/Default";
 import EmailList from "./components/EmailList";
 import ScrollToTop from "./ScrollToTop";
+import Update from "./components/Update";
 
 
 class App extends Component {
@@ -19,15 +20,21 @@ class App extends Component {
 
     return (
       <React.Fragment>
+        
         <Navbar />
+        
         <Switch>
         <Route exact path=" " component={Home} />
           <Route exact path="/" component={Home} />
           <Route path="/emails" component={EmailList} />
+          <Route path="/update" component={Update} />
           <Route component={Default} />
+          
         </Switch>
-        <ScrollToTop />
         <Modal />
+          
+        <ScrollToTop />
+        
       </React.Fragment>
     );
   }

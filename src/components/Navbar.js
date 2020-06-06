@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
 export default class  extends Component {
     render() {
         return (
             <div className="container mx-0 p-0 col-12">
+                
                 <div className="row">
                     <a className="alertbar" href="https://nycwell.cityofnewyork.us/en/covid-19-digital-mental-health-resources/"target="_blank">
                         <div className="alert-bar-inner container text-center p-2">
                             links to other resources
                         </div>
+                        
                     </a>
                 </div>
                 
