@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import VideoSlider from './VideoSlider';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 export default class Home extends Component {
     render() {
@@ -18,6 +19,14 @@ export default class Home extends Component {
                     </div>
 
                 </div>
+                <div className="row align-items-center mx-auto py-5" id="bar01">
+                    <div className="col-10 col-md-5 mx-auto">
+                    <TwitterTweetEmbed
+  tweetId={'1270357198644838401'}
+/>  
+                    </div>
+                    
+                    </div>
                 <div className="row align-items-center mx-0 col-12 " id="bar6">
                     
                     <iframe className="mx-auto py-5" width="670" height="420" src="https://www.youtube.com/embed/n-Bj2LS9jSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
