@@ -80,7 +80,8 @@ export default class  extends Component {
                         <ul>
                         <li><a href="https://centerhealthyminds.org/news/covid-19-and-our-common-humanity"target="_blank">Covid-19 and our Common Humanity</a></li>
                         <li><a href="https://www.northshorechildguidance.org/workshops-2/"target="_blank">Parent Support Groups</a></li>
-
+                        <li><a src="../../img/NB MCH July 8th 2020 Dewey Hymowitz Flyer.pdf" target="_blank" download>Keynote Address for Nassau BOCES Mental Health Consortium</a></li>
+                        <li><a src="../../img/CCMC Zoom Flyer.pdf" target="_blank" download>Live Presentation for Parents</a></li>
                             <li><a href="https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7"target="_blank">Adjusting to online learning</a></li>
                             <li><a href="https://www.pbs.org/parents/thrive/how-to-talk-to-your-kids-about-coronavirus"target="_blank">PBS: How to talk to your kids about the Coronavirus</a></li>
                             <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/talking-with-children.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fschools-childcare%2Ftalking-with-children.html"target="_blank">Talking with children about Coronavirus</a></li>
