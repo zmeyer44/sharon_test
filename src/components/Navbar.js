@@ -85,7 +85,7 @@ export default class  extends Component {
                             <li><a href="https://mailchi.mp/nyumc/csc-parental-guide-covid-19-1049030?e=e2009b9cf7"target="_blank">Adjusting to online learning</a></li>
                             <li><a href="https://www.pbs.org/parents/thrive/how-to-talk-to-your-kids-about-coronavirus"target="_blank">PBS: How to talk to your kids about the Coronavirus</a></li>
                             <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/talking-with-children.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcommunity%2Fschools-childcare%2Ftalking-with-children.html"target="_blank">Talking with children about Coronavirus</a></li>
-                            <li><a href="https://www.nytimes.com/2020/03/17/parenting/coronavirus-kids-talk.html"target="_blank">Discussing COVID with your children</a></li>
+                            <li><a href="https://www.nytimes.com/2020/03/17/parenting/coronavirus-kids-talk.html" target="_blank">Discussing COVID with your children</a></li>
                         </ul>
                         </li>
                         <li className="dropdown"><a href="">Crisis Services</a>
